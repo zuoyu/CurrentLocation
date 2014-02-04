@@ -1,6 +1,5 @@
 package ca.ualberta.cs.comput301.currentlocation;
 
-import android.location.Criteria;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
@@ -19,11 +18,15 @@ public class CurrentLocationActivity extends Activity {
 		
 		
 		// Obtain LocationManager service and set up location update request.
+		// To Do
 	}
 
 	
 	// Retrieve location updates through LocationListener interface
-	
+	private final LocationListener locationListener = new LocationListener(){
+	// To Do: override the four methods.
+	}	
+
 	
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
